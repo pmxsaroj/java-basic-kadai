@@ -54,8 +54,7 @@ public class Jyanken_Chapter26 {
             String myChoice = getMyChoice();
             String choice = getRandom();
 
-        System.out.println("your choice is : " + myChoice);
-        System.out.println("Friends choice is :" + choice);
+        System.out.println(" 自分の手は" + myChoice + "対戦相手の手は" + choice);
 
             if (myChoice.equals(choice)){
                 System.out.println("あいこです");
